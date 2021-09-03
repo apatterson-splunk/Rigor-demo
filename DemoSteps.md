@@ -1,7 +1,7 @@
 # Rigor Demo
 
 ### Outline
-* Follow Demo Pre-Work [here](Readme.md)
+* Follow Demo Pre-Work [here](README.md)
 * Show an analyzed website
 * Show a video and metrics of the simulated user transaction
 * See a detailed waterfall view of the transaction
@@ -11,7 +11,7 @@
 
 **See**.......|**Do**...............................|**Say**.............................................
 -----|----|-----------------------
-![](img/01_Homepage.png)|Navigate to page from [Pre-work](Readme.md)|Rigor Monitoring provides 24/7 insight into how users experience your web application while proactively alerting on any outage or performance degradation.  Our Real Browser checks are running in the latest version of Chrome to provide data across the globe for both your desktop and mobile users.  These checks collect data in order to baseline performance and understand daily, weekly, monthly patterns of performance.  They can also identify the root cause of why a page is performing poorly.  For example, we can see this collection of data points where we identify performance regression.  If we click into this data point (outlier created by rule), a user can dive into detail about where this performance regression came from.
+![](img/01_Homepage.png)|Navigate to page from [Pre-work](README.md)|Rigor Monitoring provides 24/7 insight into how users experience your web application while proactively alerting on any outage or performance degradation.  Our Real Browser checks are running in the latest version of Chrome to provide data across the globe for both your desktop and mobile users.  These checks collect data in order to baseline performance and understand daily, weekly, monthly patterns of performance.  They can also identify the root cause of why a page is performing poorly.  For example, we can see this collection of data points where we identify performance regression.  If we click into this data point (outlier created by rule), a user can dive into detail about where this performance regression came from.
 ![](img/02_RealBrowser.png)|Click on one of the outliers|Within the data from our Real Browser Check, Rigor provides several important metrics that customers can use to understand exactly what the user experience was in this instance. (Depending on audience, can focus/discuss particular metrics).
 ![](img/03_PlayFilmstripVideo.png)|Click to play filmstrip video|Rigor provides filmstrips/videos to reproduce the user experience to visualize the issue. For instance, here you can see that the user experience was horrible due to this painful visual of this image taking forever to load.
 ![](img/04_WaterfallChart.png)|Scroll down to the waterfall chart<BR><BR>Draw attention to the long bar (image load)|For each page in the user flow, a waterfall chart is provided where we can locate the resource or resources that created the regression.  As you can see here, an image took a substantial time to load, pushing out VC/Loaded time, ultimately creating very poor user experience.  Now that we have identified the issue, most of our customers ask “Why did this happen?  What do I do now?”.  
